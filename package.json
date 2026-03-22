@@ -1,0 +1,22 @@
+{
+  "name": "sunwin-data-stream",
+  "version": "1.0.0",
+  "description": "Worm GPT Sun.Win Data Stream Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "network": "^0.7.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
